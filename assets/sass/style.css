@@ -1,0 +1,65 @@
+nav {
+  background-color: rgb(237, 245, 242);
+}
+
+.nav__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 8em;
+}
+
+.nav__container--brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__container--img img {
+  width: 6em;
+  height: 6em;
+  padding: 0.5em;
+}
+
+.nav__container--img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
+ul li {
+  padding: 0.5em 1em;
+  list-style: none;
+}
+
+.nav__menu ul li:hover {
+  color: rgb(131, 82, 172);
+  cursor: pointer;
+}
+
+.header__information {
+  text-align: center;
+  background-color: rgb(241, 220, 181);
+  padding: 2.5em;
+  font-size: 1.5em;
+}
+
+body {
+  grid-template-areas: "nav" "header" "carousel" "section" "footer";
+}/*# sourceMappingURL=style.css.map */
