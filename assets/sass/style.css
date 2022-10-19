@@ -1,5 +1,6 @@
 nav {
-  background-color: rgb(237, 245, 242);
+  background-color: rgb(35, 102, 121);
+  color: whitesmoke;
 }
 
 .nav__container {
@@ -53,13 +54,115 @@ ul li {
   cursor: pointer;
 }
 
+.header__forsale img {
+  width: 20em;
+  height: 30em;
+}
+
 .header__information {
   text-align: center;
   background-color: rgb(241, 220, 181);
-  padding: 2.5em;
+  padding: 1.5em;
   font-size: 1.5em;
+}
+
+.header__information h4 {
+  margin: 1em;
+}
+
+/*SECTION*/
+.section__title h4 {
+  text-align: center;
+  padding: 1.5em;
+  background-color: rgb(241, 220, 181);
+  font-size: 2em;
+}
+
+.section__title h4:hover {
+  background-color: goldenrod;
+  cursor: pointer;
+}
+
+.section__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.section__card {
+  background-color: whitesmoke;
+  box-shadow: 10px 5px 5px rgb(201, 199, 199);
+  align-items: center;
+  width: 17.5rem;
+  border-radius: 0.5em;
+}
+
+.section__card ul {
+  padding: 0em;
+  margin: 0em;
+}
+
+.section__card--title {
+  text-align: center;
+  margin: 0.5em;
+}
+
+.section__card--imagen {
+  width: 250px;
+  height: 250px;
+}
+
+.section__card--imagen img {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+.section__card--body {
+  padding: 1em;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section__card--body ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section__card--body ul li {
+  padding: 0.5rem;
+}
+
+.section__button {
+  display: flex;
+  width: 10em;
+  background-color: goldenrod;
+  justify-content: center;
+  align-content: center;
+  padding: 0.5em 0em;
+  border-radius: 0.5em;
+  text-decoration: none;
+  color: black;
+}
+
+.section__button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: rgb(241, 220, 181);
+}
+
+footer {
+  background-color: rgb(35, 102, 121);
+  padding: 2em;
+  color: white;
+  text-align: center;
 }
 
 body {
   grid-template-areas: "nav" "header" "carousel" "section" "footer";
+  font-family: "Kurale", serif !important;
 }/*# sourceMappingURL=style.css.map */
