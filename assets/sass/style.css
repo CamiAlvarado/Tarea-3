@@ -1,3 +1,4 @@
+/*NAV*/
 nav {
   background-color: rgb(35, 102, 121);
   color: whitesmoke;
@@ -45,12 +46,12 @@ ul {
 }
 
 ul li {
-  padding: 0.5em 1em;
+  padding: 0.5em 1.5em;
   list-style: none;
 }
 
 .nav__menu ul li:hover {
-  color: rgb(131, 82, 172);
+  color: goldenrod;
   cursor: pointer;
 }
 
@@ -68,6 +69,7 @@ ul li {
 
 .header__information h4 {
   margin: 1em;
+  font-size: 1.5em;
 }
 
 /*SECTION*/
@@ -79,8 +81,9 @@ ul li {
 }
 
 .section__title h4:hover {
-  background-color: goldenrod;
+  background-color: rgb(35, 102, 121);
   cursor: pointer;
+  color: white;
 }
 
 .section__cards {
@@ -156,10 +159,23 @@ ul li {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(35, 102, 121);
   padding: 2em;
   color: white;
   text-align: center;
+  font-size: 20px;
+}
+
+footer .fa-brands {
+  padding: 10px;
+}
+
+footer p {
+  margin: 0%;
 }
 
 body {

@@ -1,4 +1,5 @@
 /*SECTION*/
+$primaryColor: rgb(35 102 121);
 .section__title h4{
     text-align: center;
     padding: 1.5em;
@@ -7,8 +8,9 @@
    
 }
 .section__title h4:hover {
-        background-color: goldenrod;
+        background-color: $primaryColor;
         cursor: pointer;
+        color: white;
 }
 .section__cards{
     display: grid;

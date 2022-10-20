@@ -1,8 +1,19 @@
 $primaryColor: rgb(35 102 121);
 
 footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: $primaryColor;
     padding: 2em;
     color: white;
     text-align: center;
+    font-size: 20px;
+}
+footer .fa-brands {
+    padding: 10px;
+}
+footer p{
+    margin: 0%;
 }
