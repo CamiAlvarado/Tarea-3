@@ -72,6 +72,13 @@ ul li {
   font-size: 1.5em;
 }
 
+/*CAROUSEL*/
+.item-img img {
+  width: 50%;
+  min-width: 300px;
+  padding: 2rem;
+}
+
 /*SECTION*/
 .section__title h4 {
   text-align: center;
@@ -114,7 +121,7 @@ ul li {
 }
 
 .section__card--imagen {
-  width: 250px;
+  width: auto;
   height: 250px;
 }
 
@@ -143,13 +150,14 @@ ul li {
 .section__button {
   display: flex;
   width: 10em;
-  background-color: goldenrod;
   justify-content: center;
   align-content: center;
+  background-color: goldenrod;
   padding: 0.5em 0em;
   border-radius: 0.5em;
   text-decoration: none;
   color: black;
+  margin: auto;
 }
 
 .section__button:hover {
@@ -180,5 +188,8 @@ footer p {
 
 body {
   grid-template-areas: "nav" "header" "carousel" "section" "footer";
-  font-family: "Kurale", serif !important;
-}/*# sourceMappingURL=style.css.map */
+  font-family: "Kurale", serif;
+}
+
+/*Tablet version*/
+/*Mobile version*//*# sourceMappingURL=style.css.map */
