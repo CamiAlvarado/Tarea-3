@@ -5,16 +5,52 @@
 @import "./footer";
 
 body {
-    grid-template-areas: 
-    "nav"
-    "header"
-    "carousel"
-    "section"
-    "footer";
+
+    grid-template-areas:
+        "nav"
+        "header"
+        "carousel"
+        "section"
+        "footer";
     font-family: 'Kurale', serif;
 }
 
 /*Tablet version*/
-
+@media(max-width: 920px) {
+    .section__cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+}
 
 /*Mobile version*/
+@media(max-width: 620px) {
+
+    .nav__container--img img {
+        width: 3em;
+        height: 3em;
+        padding: 0.2em;
+    }
+    ul li {
+        padding: 0.5em 0.5em;
+        list-style: none;
+    }
+    nav h3 {
+        font-size: 1em;
+    }
+    .section__cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    .nav__menu {
+        font-size: 1em;
+    }
+    .header__forsale img {
+        width: 10em;
+        height: 15em;
+    }
+}
